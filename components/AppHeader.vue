@@ -28,7 +28,7 @@
   height: 100%;
   transform: skewY(-11deg);
   position: absolute;
-  top: -360px;
+  top: -300px;
 }
 
 @keyframes gradient {
