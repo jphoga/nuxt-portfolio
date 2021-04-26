@@ -12,8 +12,9 @@
 
 <style scoped>
 .hero-container {
+  margin: 0 8rem;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
@@ -28,7 +29,8 @@
   height: 100%;
   transform: skewY(-11deg);
   position: absolute;
-  top: -300px;
+  top: -280px;
+  z-index: -999;
 }
 
 @keyframes gradient {
