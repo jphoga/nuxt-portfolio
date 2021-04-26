@@ -67,5 +67,6 @@ h1 {
   letter-spacing: 0.03em;
   line-height: 1;
   margin-bottom: 1px;
+  margin-bottom: 60px;
 }
 </style>

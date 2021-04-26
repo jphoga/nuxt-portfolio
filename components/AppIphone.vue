@@ -45,6 +45,7 @@ export default {}
   width: 373px;
   position: relative;
   // margin: 30px auto;
+  margin-top: -60px;
   // Scale so that the iPhone fits in view
   transform: scale(0.8);
 }
