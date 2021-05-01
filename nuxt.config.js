@@ -32,7 +32,7 @@ export default {
     // https://go.nuxtjs.dev/stylelint
     '@nuxtjs/stylelint-module',
     // https://go.nuxtjs.dev/tailwindcss
-    // '@nuxtjs/tailwindcss',
+    '@nuxtjs/tailwindcss',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -43,7 +43,12 @@ export default {
     '@nuxt/content',
   ],
   content: {
-    // Options
+    markdown: {
+      prism: {
+        theme: 'prism-themes/themes/prism-material-oceanic.css',
+      },
+    },
+    nestedProperties: ['author.name'],
   },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
